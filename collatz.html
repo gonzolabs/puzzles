@@ -1,0 +1,82 @@
+
+The crowds have been gathering here  for hours in the tiny town of Collatz, Pennsylvania. The loud speaker fires up and the mayor finally kicks off the event. "Welcome to the 78th annual Collatz Dash!" 
+
+Every March 4th, the people of Collatz run a foot race down Conway Street, the main drag in the center of town. This year, there are 100 people racing, one of each age from 3 to 103. (Grandpa Thwaites turned 103 this winter and can still hobble along with a cane.) Everyone who isn't in the race bets on the race. (It's the one and only legal gambling event, so everyone goes nuts.)
+
+The finish line in front of the Town Hall is marked in chalk with a big numeral "1". The numbers increase all along the race course heading north out of town, showing the distance to the finish line in yards.
+
+"Everybody take your mark!" bellows the mayor. 
+
+There is no fixed start line. Instead, each runner walks away from the finish line to a distance equal to their age. So the 18 year-old walks out to the 18-yard line, the 36 year-old goes to the 36-yard line, and so on until grandpa Thwaites finally hobbles out to the 103-yard line. 
+
+The gun fires and the race is on!
+
+Of course, people in Collatz don't run straight to the finish line. They used to do it that way, but the winner was always a gloating 3 year-old. Instead, everyone now follows this algorithm in simultaneous turns:
+
+1. Look at your current yard line (n).
+2. If n is even, immediately advance to the (n / 2) yard line.
+3. If n is odd, go back (n * 3) + 1 yards.
+
+The people of Collatz love betting on this race because it's so unpredictable!
+
+For example, take a look at last year's nail-biter between Alexa (age 7) and Bob (age 17):
+
+Alexa	Bob
+7	17
+22	52
+11	26
+34	13
+17	40
+52	20
+26	10
+13	5
+40	16
+20	8
+10	4
+5	2
+16	1
+Bob wins!
+
+...while Carrie (age 8) mopped the floor with Darrin (age 18):
+
+Carrie	Darrin
+8	18
+4	9
+2	28
+1	14
+Carrie wins!
+
+...and every once in a while, you get a surprising tie!
+
+Ed	Fred
+22	23
+11	70
+34	35
+17	106
+52	53
+26	160
+13	80
+40	40
+20	20
+10	10
+5	5
+16	16
+8	8
+4	4
+2	2
+1	1
+It's a tie!
+
+You're only allowed to place bets on pairs of racers. The bigger the age gap between racers, the bigger the odds of the bet. I made a lot of money last year placing a bet that Bob would beat Alexa. The odds were 17:7, so I reaped $242.86 from my $100 bet!
+
+But something tells me this race isn't as unpredictable as it seems...
+
+1) What is the most profitable bet to make this year?
+
+2) Which pair of racers will tie with the largest age gap between them?
+
+3) Who will finish last? (It's not grandpa Thwaites!)
+
+4) Bonus:  Visualize the race in some cool way.
+
+5) Superduper bonus:  Will every racer finish the race, no matter what their age? (This is an open question in mathematics.)
